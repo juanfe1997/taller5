@@ -1,0 +1,283 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: pink;
+}
+
+header{
+	background-color: #582862;
+	color:#fff;
+	font-family: arial;
+	padding: 20px;
+	margin: 0 auto;
+}
+h1{
+	margin: 30px;
+	display: block;
+	text-decoration:none;
+	text-align: center;	
+	font-weight: normal;
+	color: grey;
+	font-family: tahoma;
+}
+img{
+	margin-left: 50px;
+	width: 150px;
+}
+header a{
+	color:white;
+	display: inline;
+	float: right;
+	margin-top: 35px;
+	margin-right: 30px;
+	width: 50px;
+}
+a{
+	text-decoration: none;
+	color:silver;
+	font-family: arial;
+}
+p{
+	margin: 0;
+	text-align: center;
+	font-size: 60px;
+	font-weight: normal;
+	color: black;
+}
+
+.button:hover{
+	background: blue;
+}
+.button{
+	background: #582862;
+	margin-left: 20px;
+	padding: 10px 15px;
+	display: inline;
+ 	text-align: center;
+ 	color:white;
+	    
+	}
+	article{
+		text-align: center;
+		 margin-left: 18px;
+	}
+
+section{
+	background-image: url("banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+.contenedor_titulo{
+	height: 530px;
+}
+
+h4{
+	font-size: 20px;
+	color: white;
+	padding-top:0px;
+	display: block;
+	text-align: center;
+	margin-top: 0px;
+	font-weight: normal;	
+}
+
+.servicios{
+	display: table;
+	width: 100%;
+}
+.cabello, .manos, .piel{
+	display: table-cell;
+	width: 33%;
+	text-align: center;
+	padding: 6em;
+	vertical-align: middle;
+}
+.cabello{
+	background-color: #582862;
+	color: white;
+}
+.manos{
+	background-color: #C025C6;
+	color: white;
+}
+.piel{
+	background-color: #EEC80E;
+	color: #582862;
+}
+.staff{
+	display: table;
+	display: inline;
+	width: 100%;
+}
+.LAURA, .CARMEN, .MARIO, .SANDRA{
+	display: table-cell;
+	width: 25%;
+	text-align: center;
+	padding: 4em;
+	vertical-align: middle;
+
+}
+
+button{
+	background: #EEC80E;
+	margin-left: 20px;
+	padding: 10px;
+	display: inline;
+ 	text-align: center;
+ 	color:#582862;
+ 	margin-top: 120px;
+	 }
+@media (min-width: 400px){
+	body{
+	background-color: #A69898;
+
+	}
+
+@media (min-width: 700px){
+	body{
+	background-color: #C776E4;
+
+	}
+}
+@media (min-width: 1000px){
+	body{
+	background-color: white;
+
+	}
+}
+
+    section{
+    	margin: 0;
+    	padding: 0;
+    }
+h3{
+    	margin: 0;
+    	padding: 0px;
+       color:white;
+	   display: block;
+	   margin-top: 0px;
+	   padding-top: 240px;
+	   font-size: 30px;
+	   font-weight: normal; 
+    
+}
+.staff{
+	display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  
+}
+.item{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #EAE9E9;
+  margin-top: 2em;
+  width: 270px;
+  height: 300px;
+
+}
+.item img{
+	 border-radius: 50%;
+	 margin: 0px;
+}
+.item h4{
+	color: black;
+	padding: 32px;
+	margin: 0px;
+}
+.item button{
+margin: 0px;
+
+}
+
+footer{
+	background: #582862;
+	padding: 10px; 
+	flex-wrap: wrap; 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+footer a{
+color: white;
+margin: 15px;
+display: inline;
+padding-top: 0px;
+display: flex;
+align-items: center;
+}
+.padre{
+	   display: flex;
+	  justify-content:flex-start;
+      flex-wrap: wrap;
+
+}
+.hijo{
+	justify-content: flex-start;
+	padding: 1em;
+	flex-direction: row;
+}
+form input[type="text"]{
+	    	
+	    	text-align: center;
+	    	display: inline-block;
+	    	padding: 10px;
+	    	height: 5px;
+	    	width: 520px;
+}
+ form input[type="submit"]{
+	    	
+	    	text-align: center;
+	    	display: inline-block;
+	    	margin-left: 18px;
+	    	margin-bottom: 10px;
+	    	padding: 8px 20px;
+	    	border: none;
+	    	background: #582862;
+	    	color: white;
+}
+form input[type="email"]{
+	    	
+	    	text-align: center;
+	    	display: inline-block;
+	    	padding: 10px;
+	    	height: 5px;
+	    	width: 520px;
+}
+textarea[type="text"]{
+	    	
+	    	text-align: center;
+	    	display: inline-block;
+	    	padding: 10px;
+	    	height: 300px;
+	    	width: 520px;
+}
+form textarea[type="text"]{
+	    	
+	    	text-align: center;
+	    	display: inline-block;
+	    	padding: 10px;
+	    	height: 200px;
+	    	width: 520px;
+}
+.hijo h5{
+	padding: 0px;
+	margin: 0px;
+}
+.hijo h2{
+	font-family: cursive;
+	font-weight: normal;
+	text-decoration: underline;
+	font-style: oblique;
+	justify-content: flex-start;
+}
+.hijo a{
+	color: purple;
+	margin: 5px;
+}
