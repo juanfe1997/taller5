@@ -22,7 +22,7 @@ h1{
 	font-family: tahoma;
 }
 img{
-	margin-left: 50px;
+	margin-left: 20px;
 	width: 150px;
 }
 header a{
@@ -57,11 +57,11 @@ p{
  	text-align: center;
  	color:white;
 	    
-	}
-	article{
-		text-align: center;
-		 margin-left: 18px;
-	}
+}
+article{
+	text-align: center;
+	 margin-left: 18px;
+}
 
 section{
 	background-image: url("banner.jpg");
@@ -88,6 +88,8 @@ h4{
 .servicios{
 	display: table;
 	width: 100%;
+    justify-content:space-between;
+    flex-wrap: wrap;
 }
 .cabello, .manos, .piel{
 	display: table-cell;
@@ -150,19 +152,21 @@ button{
 	}
 }
 
-    section{
-    	margin: 0;
-    	padding: 0;
-    }
+section{
+   margin: 0;
+   padding: 0;
+
+}
+
 h3{
-    	margin: 0;
-    	padding: 0px;
-       color:white;
-	   display: block;
-	   margin-top: 0px;
-	   padding-top: 240px;
-	   font-size: 30px;
-	   font-weight: normal; 
+   margin: 0;
+   padding: 0px;
+   color:white;
+   display: block;
+   margin-top: 0px;
+   padding-top: 240px;
+   font-size: 30px;
+   font-weight: normal; 
     
 }
 .staff{
@@ -205,15 +209,15 @@ footer{
 	justify-content: center;
 }
 footer a{
-color: white;
-margin: 15px;
-display: inline;
-padding-top: 0px;
-display: flex;
-align-items: center;
+   color: white;
+   margin: 15px;
+   display: inline;
+   padding-top: 0px;
+   display: flex;
+   align-items: center;
 }
 .padre{
-	   display: flex;
+	  display: flex;
 	  justify-content:flex-start;
       flex-wrap: wrap;
 
@@ -229,7 +233,7 @@ form input[type="text"]{
 	    	display: inline-block;
 	    	padding: 10px;
 	    	height: 5px;
-	    	width: 520px;
+	    	width: 450px;
 }
  form input[type="submit"]{
 	    	
@@ -248,7 +252,7 @@ form input[type="email"]{
 	    	display: inline-block;
 	    	padding: 10px;
 	    	height: 5px;
-	    	width: 520px;
+	    	width: 450px;
 }
 textarea[type="text"]{
 	    	
@@ -256,15 +260,15 @@ textarea[type="text"]{
 	    	display: inline-block;
 	    	padding: 10px;
 	    	height: 300px;
-	    	width: 520px;
+	    	width: 450px;
 }
 form textarea[type="text"]{
 	    	
 	    	text-align: center;
 	    	display: inline-block;
 	    	padding: 10px;
-	    	height: 200px;
-	    	width: 520px;
+	    	height: 300px;
+	    	width: 450px;
 }
 .hijo h5{
 	padding: 0px;
